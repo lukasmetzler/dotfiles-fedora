@@ -1,0 +1,7 @@
+[user]
+    name = lukasmetzler
+    email = lukasxmetzler@gmail.com
+[init]
+    defaultBranch = main
+[color]
+    ui = auto
