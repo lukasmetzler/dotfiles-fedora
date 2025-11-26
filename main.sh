@@ -26,3 +26,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 cp config/zsh/zshrc_template ~/.zshrc
 
 cp config/git/gitconfig_template ~/.gitconfig
+
+
+

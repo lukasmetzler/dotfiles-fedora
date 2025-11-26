@@ -1,11 +1,5 @@
 #!/bin/bash
-
-sudo dnf install fira-code-fonts -y
-
-sudo dnf install gnome-tweaks gnome-shell-extension-manager -y
-
-sudo dnf install podman podman-docker buildah -y
-
+sudo dnf install gnome-tweaks -y || true
 
 flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo
 
@@ -15,8 +9,6 @@ FLATPAK_APPS=(
     com.discordapp.Discord
     md.obsidian.Obsidian
     io.dbeaver.DBeaverCommunity
-    com.github.btop.btop
-    com.github.ghostty.ghostty
     com.mattjakeman.ExtensionManager 
 )
 

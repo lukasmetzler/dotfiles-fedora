@@ -11,6 +11,15 @@ nvm install --lts
 npm install -g typescript npm pnpm
 
 sudo dnf group install "Development Tools" -y
-sudo dnf install java-21-openjdk golang python3 python3-pip -y # Added python3 & pip
+sudo dnf install java-21-openjdk golang python3 python3-pip -y
+
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-base-tools
+sudo dnf install libavcodec-freeworld
 
 sudo dnf install timeshift -y
+sudo dnf install ghostty
+sudo dnf install alacritty
+sudo dnf install fastfetch
+
+sudo dnf install papirus-icon-theme
